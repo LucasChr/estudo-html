@@ -1,0 +1,158 @@
+body {
+	width: 1000px;
+	padding-left: 12%;
+	background-color: #C6E2FF;
+}
+.topo {
+	line-height: 26px;
+	padding-bottom: 15px;
+}
+.cabecalho {
+	display: inline;
+	position: auto !important;
+	padding-bottom: 15;
+}
+.principal {
+	/*padding: 25px;
+	 width: 1000px;
+	 margin: 0 auto;*/
+	width: 1000px;
+	background-color: #79CDCD;
+}
+.menu, .centro {
+	/*float: left;*/
+	text-align: center;
+	position: auto !important;
+}
+.centro {
+	/*width: 150px;
+	 height: 30px;
+	 float: left;
+	 margin-left: 25px;*/
+	width: 1000px;
+	background-color: #008B8B;
+	position: auto !important;
+	/*padding-left: 10px;
+	 padding-right: 10px;*/
+	height: 40px;
+	padding-bottom: 10px;
+}
+.titulo {
+	padding-top: 10px;
+	color: #DDD;
+}
+.menu {
+	background-color: #528B8B;
+	position: auto !important;
+	width: 1000px;
+	height: 40px;
+	padding-top: 10px;
+	list-style: none;
+	list-style-type: none;
+	list-style-image: none;
+	list-style-position: outside;
+	margin: -2px auto 0;
+	margin-top: -2px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+.menu ul {
+	display: inline;
+	text-align: center
+}
+.menu ul li {
+	list-style-type: none;
+	position: auto !important;
+	display: inline;
+	margin-top: 10px;
+	padding: 5px 20px;
+	font-size: 13px;
+}
+.conteudo {
+	float: left;
+}
+.produtos {
+	position: auto !important;
+	text-align: center;
+	width: 1000px;
+}
+.produtos{
+	overflow: auto;
+}
+.produtos ul{
+	list-style: none; 
+	letter-spacing: -3px;
+	border-top: 1px #fff solid;
+}
+.produtos ul li {
+	display: table-cell;
+	width: 200px;
+	padding: 20px;
+	text-align: center;
+	vertical-align: top;
+	letter-spacing: normal;
+	
+}
+
+.produtos ul li div{
+	text-align: left;
+}
+/*.tec00, .tec01, .tec02, .tec03 {
+	margin-left: 70px;
+	float: left;
+	width: 200px;
+	text-align: left;
+	padding-bottom: 20px;
+}
+.tec01, .tec02, .tec03 {
+	margin-left: 20px;
+}*/
+.endereco {
+	text-align: center;
+	position: absolute center;
+	padding-bottom: 20px;
+}
+
+.btn {
+	background-color: #7AC5CD;
+	padding: 5px;
+	width: 120px;
+	text-transform: uppercase;
+	border-radius: 4px;
+}
+a.btn {
+	text-decoration: none;
+	color: #333;
+}
+.btn:hover {
+	background-color: #7AC5CD;
+	color: #607B8B;
+}
+#esquerda {
+	width: 200px;
+	height: 500px;
+	padding-top: 30px;
+	margin-bottom: 20px;
+	float: left;
+	border-right: 1px solid;
+	border-bottom: 1px solid;
+	border-top: 1px solid;
+	font-size: 17px;
+}
+a:link {
+	text-decoration: none;
+}
+.prd00, .prd01, .prd02, .prd03, .prd04, .prd05 {
+	margin-left: 30px;
+	float: left;
+	text-align: left;
+	padding-bottom: 20px;
+}
+.gradeprodutos {
+	padding-top: 15px;
+	width: 799px;
+	float: left;
+	height: 500px;
+	overflow-x: auto;
+}
