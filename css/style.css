@@ -98,16 +98,6 @@ body {
 .produtos ul li div{
 	text-align: left;
 }
-/*.tec00, .tec01, .tec02, .tec03 {
-	margin-left: 70px;
-	float: left;
-	width: 200px;
-	text-align: left;
-	padding-bottom: 20px;
-}
-.tec01, .tec02, .tec03 {
-	margin-left: 20px;
-}*/
 .endereco {
 	text-align: center;
 	position: absolute center;
