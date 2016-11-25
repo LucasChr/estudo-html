@@ -77,11 +77,11 @@ body {
 	text-align: center;
 	width: 1000px;
 }
-.produtos{
+.produtos {
 	overflow: auto;
 }
-.produtos ul{
-	list-style: none; 
+.produtos ul {
+	list-style: none;
 	letter-spacing: -3px;
 	border-top: 1px #fff solid;
 }
@@ -92,10 +92,9 @@ body {
 	text-align: center;
 	vertical-align: top;
 	letter-spacing: normal;
-	
 }
 
-.produtos ul li div{
+.produtos ul li div {
 	text-align: left;
 }
 .endereco {
@@ -138,6 +137,7 @@ a:link {
 	float: left;
 	text-align: left;
 	padding-bottom: 20px;
+	color: #1E90FF;
 }
 .gradeprodutos {
 	padding-top: 15px;
