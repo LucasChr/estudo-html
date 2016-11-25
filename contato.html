@@ -1,9 +1,15 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 	<head>
-		<meta charset="UTF-8"/>
+		<meta charset = "UTF-8"/>
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
 		<link rel="stylesheet" href="css/style.css" type="text/css"/>
 		<title>Trabalho Web</title>
+		<script type="text/javascript">
+			function insereTexto() {
+				document.getElementById('divTeste').innerHTML = 'Enviado com Sucesso.';
+			}
+		</script>
 	</head>
 	<body>
 		<div class="principal">
@@ -28,6 +34,38 @@
 							<a class="btn" href="contato.html" target="self">CONTATO</a>
 						</li>
 					</ul>
+				</div>
+			</div>
+			<div class="contato">
+
+				<h2>SOLICITE SEU ORÇAMENTO</h2>
+				<label>Nome:</label>
+				<input />
+				<br />
+				<label>Email:</label>
+				<input />
+				<br />
+				Digite aqui sua duvida ou sugestao:
+				<br />
+				<textarea  rows="10" cols="40" maxlength="500"></textarea>
+				<br />
+				<input type='button' onclick='insereTexto()' value='Enviar'/>
+				<br/>
+				<div id="divTeste"></div>
+
+			</div>
+			<div class="rodape">
+				<div class="endereco">
+					<h3>Contato</h3>
+					<p>
+						Avenida Brasil, 333
+						<br />
+						Centro - Xanxerê SC
+						<br />
+						49 3433-7788 / 49 3433-6655
+						<br />
+						e-mail: vendas@infouno.com.br
+					</p>
 				</div>
 			</div>
 		</div>
